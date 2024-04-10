@@ -8,7 +8,7 @@ from time import sleep
 import requests
 from dhooks import Embed, Webhook
 
-auth_info = (os.environ["5124047m"], os.environ["A2h!r()2310"])
+auth_info = (os.environ["Id"], os.environ["Password"])
 
 
 def get_html(url, timeout=10.0):
